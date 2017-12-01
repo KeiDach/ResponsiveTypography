@@ -14,8 +14,30 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/main.js"></script>
+
+        <script type="text/javascript">
+            WebFontConfig = {
+                google: {
+                    families: [ 'Roboto Slab:700', 'Roboto:400,400italic,700italic,700' ]
+                }    
+            };
+            (function() {
+                var wf = document.createElement('script');
+                wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+                wf.type = 'text/javascript';
+                wf.async = 'true';
+                var scriptElement = document.getElementsByTagName('script')[0];
+                scriptElement.parentNode.insertBefore(wf, scriptElement);
+            })();
+        </script>
+        <noscript>
+            <link href='http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js' rel='stylesheet' type="text/css">
+        </noscript>
     </head>
     <body>
         <p>Hello world! This is HTML5 Boilerplate.</p>
+
+        
     </body>
 </html>
