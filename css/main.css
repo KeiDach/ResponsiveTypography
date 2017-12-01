@@ -1,0 +1,7 @@
+body {
+    font-family: "Trade Gothic", helvetica, arial;
+}
+
+.wf-inactive body {
+    font-family: helvetica, arial;
+}
