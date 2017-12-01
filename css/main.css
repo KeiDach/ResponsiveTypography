@@ -5,3 +5,9 @@ body {
 .wf-inactive body {
     font-family: helvetica, arial;
 }
+
+@media (min-width: 58em) {
+    p {
+        max-width: 38em;
+    }
+}
